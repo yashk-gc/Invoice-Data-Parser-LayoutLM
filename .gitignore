@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+venv/
+.pytest_cache/
+
+# Data and Models (The heavy stuff)
+data/
+models/
+*.safetensors
+*.jpg
+*.png
+*.jpeg
+
+# Keep JSON files for config, but ignore data JSONs
+# (This allows important project settings but ignores raw data)
+data/**/*.json
